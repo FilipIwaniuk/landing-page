@@ -64,3 +64,18 @@ body {
 }
 
 /* SUPPORTING HEADER STYLING IMAGE SECTION */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  width: 600px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container img {
+  /* PASS IMAGE STYLING UPON INSERTION! */
+}
