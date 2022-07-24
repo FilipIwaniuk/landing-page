@@ -22,6 +22,11 @@ li {
   background-color: grey;
 }
 
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 
 /* HEADER ELEMENT WITH IMAGE STYLING CONTAINER */
 .main-header ul {
@@ -34,3 +39,28 @@ li {
 .main-header .shift-left {
   margin-right: auto;
 }
+
+/* SUPPORTING HEADER STYLING */
+.supporting-header {
+  background-color: aquamarine;
+  display: flex;
+  padding-left: 25px;
+  margin-top: 65px;
+}
+
+.text-container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 30px;
+}
+
+.text-container button {
+  width: 90px;
+  margin-top: 10px;
+  background-color: navy;
+  color: white;
+}
+
+/* SUPPORTING HEADER STYLING IMAGE SECTION */
