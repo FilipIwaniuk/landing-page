@@ -162,3 +162,14 @@ body {
 .banner-container .selection-tag {
   font-weight: 600;
 }
+
+/* FOOTER */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #1f2937;
+  color: white;
+  margin-top: 50px;
+}
