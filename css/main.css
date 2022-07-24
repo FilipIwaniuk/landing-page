@@ -85,7 +85,6 @@ body {
 
 /* CARD CONTAINER STYLING */
 .main-container {
-  background-color: #3b82f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,9 +98,9 @@ body {
 }
 
 .supporting-image-container {
-  border: 2px solid black;
+  padding-top: 30px;
   display: flex;
-  gap: 30px;
+  gap: 60px;
 }
 
 .card-container {
@@ -109,6 +108,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 200px;
-  border: 2px solid black;
+  border: 4px solid #3b82f6;
   border-radius: 20px;
+}
+
+.card-container img {
+  color: white;
 }
