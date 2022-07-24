@@ -84,3 +84,31 @@ body {
 }
 
 /* CARD CONTAINER STYLING */
+.main-container {
+  background-color: #3b82f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.supporting-image-container {
+  border: 2px solid black;
+  display: flex;
+  gap: 30px;
+}
+
+.card-container {
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
