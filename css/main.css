@@ -7,7 +7,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 li {
@@ -37,6 +37,10 @@ body {
   padding: 20px;
 }
 
+.main-header li {
+  color: white;
+}
+
 .main-header .shift-left {
   margin-right: auto;
 }
@@ -54,6 +58,7 @@ body {
   flex-direction: column;
   width: 500px;
   padding: 30px;
+  color: white;
 }
 
 .text-container button {
