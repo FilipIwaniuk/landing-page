@@ -116,6 +116,14 @@ body {
   border-radius: 20px;
 }
 
+.grouping {
+  width: 200px;
+}
+
+.grouping p {
+  padding: 15px;
+}
+
 .card-container img {
   color: white;
 }
